@@ -24,6 +24,20 @@ TurfTrack is a web-based application designed to manage turf bookings, events, a
 - Admin Panel
 - Staff Panel
 
+## 📸 Screenshots
+
+### Home Page
+![Home](images/screenshots/home.png)
+
+### Registration Page
+![Registration](images/screenshots/registration.png)
+
+### Slot Booking
+![Slots](images/screenshots/slots.png)
+
+### Staff Panel
+![Staff](images/screenshots/staff.png)
+
 ## ⚙️ How to Run
 1. Install XAMPP / WAMP
 2. Place the project folder inside `htdocs`
