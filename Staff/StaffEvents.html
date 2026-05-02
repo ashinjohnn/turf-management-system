@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\style.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\CommonFiles\bootstap.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\CommonFiles\adminstaffstyles.css">
+    <link rel="icon" href="C:\xampp\htdocs\TurfTrack\images\icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\CommonFiles\css\all.min.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\CommonFiles\css\fontawesome.min.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\TurfTrack\CommonFiles\Modalpopupstyle.css">
+ 
+</head>
+<body>
+    
+    <header>
+        <div class="nav-left">
+            <div class="logo">
+                <img src="C:\xampp\htdocs\TurfTrack\images\logo.png" alt="Logo" width="50">
+              </div>
+              <div class="website-name">Turf Track</div>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li class="nav-item"><a class="nav-link" href="C:\xampp\htdocs\TurfTrack\homepg.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <div class="side-navbar">
+        <a href="C:\xampp\htdocs\TurfTrack\Staff\Staffslot.html">Slot</a>
+        <a href="C:\xampp\htdocs\TurfTrack\Staff\StaffBooking.html">Booking</a>
+        <a href="#">Events</a>
+        <a href="C:\xampp\htdocs\TurfTrack\Staff\StaffReview.html">Review</a> 
+        
+        <p>&copy; 2023 Turf Track.<br> All rights reserved.</p></div>
+        <main class="AdminPageMain">
+            <div class="addbtn">
+                <button id="addeventbtn" onclick="openModal()"><b>&plus; ADD EVENT</b></button>
+
+            </div>
+            <table class="DataTable">
+                <tr id="DataTableHeadings">
+                    <th>ID</th><th>Name</th><th>Description</th><th>Start Date</th><th>End Date</th><th>Game</th><th>Reg Fee</th><th colspan="2">Action</th>
+                </tr>
+                <tr>
+                    <td class="tabledatas">12345</td>
+                    <td class="tabledatas">Football Tournament</td>
+                    <td class="tabledatas">Tournament  </td>
+                    <td class="tabledatas">11-11-1111</td>
+                    <td class="tabledatas">11-11-1111</td>
+                    <td class="tabledatas">Football</td>
+                    <td class="tabledatas">1000</td>
+                    <td class="editbtn"><i class='fa-solid fa-pen-to-square'></i></td>
+                    <td class="deletebtn"><i class='fa-solid fa-trash' ></i></td>
+                </tr>
+               
+                
+
+
+                
+               
+            </table>
+        </main>
+        <div id="Modal" class="modal">
+            <div class="staff-modal-content">
+                              <div class="modal-header">
+                                <h6>EVENT</h6>
+                                 <span id="ModalClose">&times;</span>
+                                 
+                              </div>
+                              <div class="modal-body">
+                              <form method="post" id="AddEventForm">
+                              <div class="flexhalf">
+                               <div class="form-container">
+                              <div class="form-group">
+                                <label for="name">Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" class="form-control" required />
+                              </div>
+                                  <div class="form-group">
+                                    <label for="description">Description <span class="required">*</span></label>
+                                    <textarea id="description" name="description" class="form-control" required rows="4"></textarea>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="selectGame">Game<span class="required">*</span></label>
+                                      <select id="selectGame" name="selectGame" class="form-control" required>
+                                        <option value="" disabled selected>Select an option</option>
+                                        <option value="" >Select an option</option>
+                                        <option value="" >Select an option</option>
+                                      </select>
+                                    </div>
+                              </div>
+                                    <div class="form-container">
+                                  <div class="form-outline mb-4">
+                                    <label class="form-label" for="start_date">Start Date&nbsp;<span class="required">*</span></label>
+                                    <input type="date" id="start_date" name="start_date" class="form-control form-control-lg" required/>
+                                  </div>
+                                  <div class="form-outline mb-4">
+                                  <label class="form-label" for="end_date">End Date&nbsp;<span class="required">*</span></label>
+                                    <input type="date" id="end_date" name="end_date" class="form-control form-control-lg" required/>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="registration_fee">Registration Fee<span class="required">*</span></label>
+                                      <input type="number" id="registration_fee" name="registration_fee" class="form-control" required />
+                                    </div>
+                                  
+                                    
+                                  
+                                    <div class="btn-container">
+                                      <button class="btn btn-primary btn-lg" id="AddEvent" name="AddEvent">SUBMIT</button>
+                                    </div>
+                                </div>
+                              </div>
+                            </form>
+                              </div>
+            </div>
+      </div>
+         <script src="C:\xampp\htdocs\TurfTrack\CommonFiles\modal.js"></script>
+   
+</body>
+</html>

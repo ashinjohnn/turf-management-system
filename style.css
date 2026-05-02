@@ -1,0 +1,204 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+ /* Reset some default styling */
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+ main{
+    margin-top: 80px;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #fff;
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* box-shadow: 0px 0px 5px 5px; */
+    
+  }
+  
+  header .nav-left{
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  header .logo {
+    margin-right: 20px;
+  }
+  
+  /* Website name styling */
+  header .website-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Navigation menu styling */
+  header .nav-menu ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    /* align-items: end;
+    margin: 0 1100px; */
+
+    
+  }
+  
+  
+  header .nav-item {
+    margin-right: 20px;
+  }
+  
+  header .nav-link {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header .nav-link:hover {
+    color: #ff9900; /* Change to your desired hover color */
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.aboutus
+{
+    font-size: 1.5rem;
+    margin: 20px 30px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contactus 
+{
+  font-size: 1.3rem;
+  display: block;
+  border: 40px 50px;
+  margin-left: 35px;
+}
+
+
+#boxhmpg {
+  width: fit-content;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 20px; /* Optional for spacing inside the box */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+}
+
+#hmpgtext1 {
+  min-width: 50%;
+  max-width: 50%;
+  padding: 10%;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+#hmpg1{
+  display: flex;
+}
+#hmpgimg1 img{
+  height: 381px;
+  width: 500px;
+  padding: 5%;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+#hmpgimg1{
+  justify-content: center;
+}
+
+.image-container2{
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-between; /* Distribute space evenly between images */
+}
+
+.image-container2 img {
+  max-width: 30%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  
+} 
+
+.image-container2 p{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
+.grid-img {
+  width: 350px; /* Set your desired width for square images */
+  height: 400px; /* Set your desired height for square images */
+  object-fit: cover; /* Maintain aspect ratio and cover the square */
+  margin: 10px; /* Add margin for spacing */
+}
+
+.hmpggallery{
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+
+.btn-login {
+  height: 54px; /* Adjust the height to match your input box */
+  width: 100%; /* Make the button fill its container width */
+  font-size: inherit; /* Use the same font size as the textboxes */
+}
+
+.loginlinks{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+  .register{
+      width: 100%;
+  }
+  .required{
+    color: #ff0000;
+  }

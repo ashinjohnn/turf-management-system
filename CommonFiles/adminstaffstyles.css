@@ -1,0 +1,133 @@
+/* sidebarstyle */
+
+.side-navbar{
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+   
+    top: 0;
+    left: 0;
+    background-color: #202120;
+    overflow-x: hidden;
+    padding-top: 80px;
+  }
+.side-navbar a{
+    padding: 20px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.side-navbar a:hover{
+    color: red;
+}
+
+.side-navbar p{
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    color: #9c9c9c;
+    margin-left: 5px;
+}
+
+
+
+/* pagestyle */
+ .AdminPageMain{
+    
+        margin-top: 80px;
+        margin-left: 150px;
+}
+
+
+.DataTable {
+    border-collapse: collapse; /* This collapses the table borders into a single border. */
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.DataTable th{
+    border: 1px solid black; /* Add a 1px solid black border to table cells. */
+    padding: 4px;
+    text-align: center;
+}
+.tabledatas{
+    border: 1px solid black; /* Add a 1px solid black border to table cells. */
+    padding: 4px;
+    text-align: center;
+}
+.addbtn{
+    margin-left: 30px;
+ 
+}
+.addbtn button{
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+}
+.addbtn button:hover {
+    background-color: #2980b9;
+}
+
+/* Define the background colors for even and odd rows */
+.DataTable tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light color for even rows */
+}
+
+.DataTable tr:nth-child(odd) {
+    background-color: #ffffff; /* White or any other color for odd rows */
+}
+#DataTableHeadings{
+    background-color: #732525;
+    color: #fff;
+}
+.editbtn{
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+
+.deletebtn{
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+.AdminTools{
+    display:flex;
+    
+}
+.SelectGame{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.gray-trash{
+    color: gray;
+}
+
+
+.statuscol{
+    border: 1px solid black; /* Add a 1px solid black border to table cells. */
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(155, 211, 26);
+}
+.fa-right-left{
+    font-size: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+i{
+    cursor: pointer;
+}

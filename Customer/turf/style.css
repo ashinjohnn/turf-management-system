@@ -1,0 +1,80 @@
+.padding{
+    padding: 0 100px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+img{
+    object-fit: cover;
+}
+
+.navbar{
+    z-index: 10;
+}
+.navbar .navbar-brand .logo{
+    width: 130px;
+}
+.mainNav a.active{
+    background-color: rgb(217, 18, 18);
+    color: #fff;
+}
+.games .box:hover img{
+    transform: scale(1.2);
+}
+.games .box img{
+    aspect-ratio: 1/.7;
+    transition: all .5s ease-out;
+}
+.mainBox img{
+    aspect-ratio: 1/.3;
+}
+.dateSelect .date.active{
+    background-color: #000000;
+    color: #ffffff;
+}
+.dateSelect .date:hover{
+    border: 1px solid #000000 !important;
+}
+.dateSelect .overflow-x-scroll::-webkit-scrollbar {
+    display: none;
+}
+.selectTime .grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+}
+.selectTime .grid .time.active{
+    background-color: #00e300;
+    color: #ffffff;
+}
+.selectTime .grid .time{
+    border: 2px solid #00e300;
+}
+.selectTime .grid .time.booked{
+    border: 2px solid #9f9f9f;
+    background-color: #9f9f9f;
+    color: #ffffff;
+}
+.info .square{
+    width: 14px;
+    height: 14px;
+}
+.info .square.selected{
+    background-color: #00e300;
+}
+.info .square.available{
+    border: 2px solid #00e300;
+}
+.info .square.sold{
+    background-color: #9f9f9f;
+}
+.dateSelect .date{
+    cursor: pointer;
+}
+.selectTime .time{
+    cursor: pointer;
+}
+.breadcrumb{
+    margin-top: 100px;
+}
